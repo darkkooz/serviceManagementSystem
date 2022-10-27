@@ -350,5 +350,17 @@
   <ItemGroup>
     <None Include="resources\administrador\icons8-lock-30.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\administrador\icons8-pencil-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\administrador\icons8-remove-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\administrador\icons8-back-arrow-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\administrador\icons8-save-as-26.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

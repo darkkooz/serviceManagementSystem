@@ -412,7 +412,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(499, 487);
+            this.label10.Location = new System.Drawing.Point(364, 474);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(73, 16);
             this.label10.TabIndex = 58;
@@ -424,7 +424,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.panel10.Controls.Add(this.dateTimePicker2);
             this.panel10.Controls.Add(this.pictureBox10);
-            this.panel10.Location = new System.Drawing.Point(502, 507);
+            this.panel10.Location = new System.Drawing.Point(367, 494);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(132, 45);
             this.panel10.TabIndex = 57;
@@ -443,7 +443,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(362, 488);
+            this.label11.Location = new System.Drawing.Point(227, 475);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(83, 16);
             this.label11.TabIndex = 56;
@@ -454,7 +454,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.panel11.Controls.Add(this.dateTimePicker1);
             this.panel11.Controls.Add(this.pictureBox11);
-            this.panel11.Location = new System.Drawing.Point(365, 507);
+            this.panel11.Location = new System.Drawing.Point(230, 494);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(131, 45);
             this.panel11.TabIndex = 55;
@@ -473,7 +473,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(222, 488);
+            this.label12.Location = new System.Drawing.Point(46, 475);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(88, 16);
             this.label12.TabIndex = 54;
@@ -485,7 +485,7 @@ namespace serviceManagementSystem.Administrador
             this.panel12.Controls.Add(this.textBox5);
             this.panel12.Controls.Add(this.pictureBox12);
             this.panel12.Enabled = false;
-            this.panel12.Location = new System.Drawing.Point(225, 507);
+            this.panel12.Location = new System.Drawing.Point(49, 494);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(127, 45);
             this.panel12.TabIndex = 53;
@@ -495,7 +495,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(225, 447);
+            this.checkBox2.Location = new System.Drawing.Point(49, 447);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(175, 20);
             this.checkBox2.TabIndex = 52;
@@ -549,7 +549,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(414, 447);
+            this.checkBox1.Location = new System.Drawing.Point(230, 447);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(220, 20);
             this.checkBox1.TabIndex = 62;
@@ -646,7 +646,7 @@ namespace serviceManagementSystem.Administrador
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::serviceManagementSystem.Properties.Resources.icons8_remove_30;
-            this.button4.Location = new System.Drawing.Point(760, 476);
+            this.button4.Location = new System.Drawing.Point(760, 443);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(45, 45);
             this.button4.TabIndex = 47;
@@ -661,7 +661,7 @@ namespace serviceManagementSystem.Administrador
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::serviceManagementSystem.Properties.Resources.icons8_circled_right_30___copia;
-            this.button2.Location = new System.Drawing.Point(760, 527);
+            this.button2.Location = new System.Drawing.Point(760, 494);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(45, 45);
             this.button2.TabIndex = 46;
@@ -678,7 +678,7 @@ namespace serviceManagementSystem.Administrador
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::serviceManagementSystem.Properties.Resources.icons8_pencil_30;
-            this.button3.Location = new System.Drawing.Point(760, 425);
+            this.button3.Location = new System.Drawing.Point(760, 392);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(45, 45);
             this.button3.TabIndex = 45;
@@ -802,7 +802,7 @@ namespace serviceManagementSystem.Administrador
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(848, 585);
+            this.ClientSize = new System.Drawing.Size(848, 568);
             this.ControlBox = false;
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label13);

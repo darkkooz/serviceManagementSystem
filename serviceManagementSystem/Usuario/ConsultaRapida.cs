@@ -20,8 +20,8 @@ namespace serviceManagementSystem.Usuario
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            UserIndex userIndex = new UserIndex();
-            userIndex.Show();
+            //UserIndex userIndex = new UserIndex();
+            //userIndex.Show();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

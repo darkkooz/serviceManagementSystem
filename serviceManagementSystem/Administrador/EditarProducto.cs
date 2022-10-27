@@ -73,8 +73,8 @@ namespace serviceManagementSystem.Administrador
         private void button6_Click(object sender, EventArgs e)
         {
 
-            //ConsultaRapida consultaRapida = new ConsultaRapida();
-            //consultaRapida.ShowDialog();
+            ConsultaRapida consultaRapida = new ConsultaRapida();
+            consultaRapida.ShowDialog();
 
 
         }

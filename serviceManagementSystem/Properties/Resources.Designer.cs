@@ -93,6 +93,16 @@ namespace serviceManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_back_arrow_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-back-arrow-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_bank_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-bank-32", resourceCulture);
@@ -296,6 +306,26 @@ namespace serviceManagementSystem.Properties {
         internal static System.Drawing.Bitmap icons8_password_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-password-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_pencil_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-pencil-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_remove_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-remove-30", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

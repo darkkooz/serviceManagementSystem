@@ -139,14 +139,14 @@
   <data name="icons8-stats-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\administrador\icons8-stats-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-remove-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrador\icons8-remove-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-length-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\administrador\icons8-length-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-user-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\icons8-user-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-in-inventory-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\administrador\icons8-in-inventory-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-circled-right-30 - copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Cajero\icons8-circled-right-30 - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -162,6 +162,12 @@
   </data>
   <data name="icons8-barcode-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\administrador\icons8-barcode-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-bar-code-67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrador\icons8-bar-code-67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-pencil-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrador\icons8-pencil-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-start-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Cajero\icons8-start-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,14 +193,17 @@
   <data name="icons8-order-history-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\administrador\icons8-order-history-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-bar-code-67" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\administrador\icons8-bar-code-67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-in-inventory-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrador\icons8-in-inventory-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-paid-bill-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\administrador\icons8-paid-bill-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-buy-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Cajero\icons8-buy-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-lock-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrador\icons8-lock-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-shopping-cart-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\administrador\icons8-shopping-cart-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,7 +226,7 @@
   <data name="icons8-increase-discount-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\administrador\icons8-increase-discount-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-lock-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\administrador\icons8-lock-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-back-arrow-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\administrador\icons8-back-arrow-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

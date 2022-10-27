@@ -78,13 +78,13 @@ namespace serviceManagementSystem.Administrador
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
@@ -110,7 +110,6 @@ namespace serviceManagementSystem.Administrador
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.SuspendLayout();
             // 
@@ -463,7 +462,7 @@ namespace serviceManagementSystem.Administrador
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(49, 465);
+            this.button2.Location = new System.Drawing.Point(691, 465);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 39);
             this.button2.TabIndex = 46;
@@ -479,7 +478,7 @@ namespace serviceManagementSystem.Administrador
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(674, 465);
+            this.button3.Location = new System.Drawing.Point(691, 375);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(131, 39);
             this.button3.TabIndex = 45;
@@ -494,7 +493,7 @@ namespace serviceManagementSystem.Administrador
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(537, 465);
+            this.button4.Location = new System.Drawing.Point(691, 420);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(131, 39);
             this.button4.TabIndex = 47;
@@ -551,20 +550,21 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(657, 380);
+            this.label10.Location = new System.Drawing.Point(344, 409);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(73, 16);
             this.label10.TabIndex = 58;
             this.label10.Text = "Fecha final";
             this.label10.Visible = false;
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // panel10
             // 
             this.panel10.Controls.Add(this.dateTimePicker2);
             this.panel10.Controls.Add(this.pictureBox10);
-            this.panel10.Location = new System.Drawing.Point(660, 399);
+            this.panel10.Location = new System.Drawing.Point(347, 428);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(145, 45);
+            this.panel10.Size = new System.Drawing.Size(132, 45);
             this.panel10.TabIndex = 57;
             this.panel10.Visible = false;
             // 
@@ -574,7 +574,7 @@ namespace serviceManagementSystem.Administrador
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker2.Location = new System.Drawing.Point(49, 12);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(93, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(78, 20);
             this.dateTimePicker2.TabIndex = 2;
             // 
             // pictureBox10
@@ -592,7 +592,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(427, 380);
+            this.label11.Location = new System.Drawing.Point(207, 408);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(83, 16);
             this.label11.TabIndex = 56;
@@ -603,9 +603,9 @@ namespace serviceManagementSystem.Administrador
             // 
             this.panel11.Controls.Add(this.dateTimePicker1);
             this.panel11.Controls.Add(this.pictureBox11);
-            this.panel11.Location = new System.Drawing.Point(430, 399);
+            this.panel11.Location = new System.Drawing.Point(210, 427);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(145, 45);
+            this.panel11.Size = new System.Drawing.Size(131, 45);
             this.panel11.TabIndex = 55;
             this.panel11.Visible = false;
             // 
@@ -615,7 +615,7 @@ namespace serviceManagementSystem.Administrador
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(49, 12);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(93, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(78, 20);
             this.dateTimePicker1.TabIndex = 1;
             // 
             // pictureBox11
@@ -633,7 +633,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(46, 379);
+            this.label12.Location = new System.Drawing.Point(46, 408);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(158, 16);
             this.label12.TabIndex = 54;
@@ -642,24 +642,14 @@ namespace serviceManagementSystem.Administrador
             // 
             // panel12
             // 
-            this.panel12.Controls.Add(this.numericUpDown3);
+            this.panel12.Controls.Add(this.textBox5);
             this.panel12.Controls.Add(this.pictureBox12);
             this.panel12.Enabled = false;
-            this.panel12.Location = new System.Drawing.Point(49, 399);
+            this.panel12.Location = new System.Drawing.Point(49, 428);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(375, 45);
+            this.panel12.Size = new System.Drawing.Size(155, 45);
             this.panel12.TabIndex = 53;
             this.panel12.Visible = false;
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.BackColor = System.Drawing.SystemColors.Window;
-            this.numericUpDown3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(51, 9);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(91, 27);
-            this.numericUpDown3.TabIndex = 2;
             // 
             // pictureBox12
             // 
@@ -676,7 +666,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(49, 356);
+            this.checkBox2.Location = new System.Drawing.Point(49, 372);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(135, 20);
             this.checkBox2.TabIndex = 52;
@@ -734,6 +724,17 @@ namespace serviceManagementSystem.Administrador
             this.button1.Size = new System.Drawing.Size(49, 49);
             this.button1.TabIndex = 30;
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(51, 11);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(101, 24);
+            this.textBox5.TabIndex = 3;
+            this.textBox5.Text = "$";
             // 
             // EditarProducto
             // 
@@ -807,7 +808,7 @@ namespace serviceManagementSystem.Administrador
             this.panel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            this.panel12.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -868,9 +869,9 @@ namespace serviceManagementSystem.Administrador
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }

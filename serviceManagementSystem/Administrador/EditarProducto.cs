@@ -94,5 +94,10 @@ namespace serviceManagementSystem.Administrador
             panel11.Enabled = false;
             panel12.Enabled = false;
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

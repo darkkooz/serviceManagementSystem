@@ -20,9 +20,8 @@ namespace serviceManagementSystem.Usuario
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
             ConsultaRapida consultaRapida = new ConsultaRapida();
-            consultaRapida.Show();
+            consultaRapida.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)

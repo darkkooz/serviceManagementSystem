@@ -17,6 +17,8 @@ namespace serviceManagementSystem
             InitializeComponent();
         }
 
+
+        Validaciones validaciones = new Validaciones();
         private void button1_Click(object sender, EventArgs e)
         {
             panel6.Visible = true;
@@ -83,6 +85,21 @@ namespace serviceManagementSystem
             this.Hide();
             Login login = new Login();
             login.Show();
+        }
+
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.textValidationWithSpaces(sender, e);
+        }
+
+        private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.textValidationNonSpaces(sender, e);
+        }
+
+        private void textBox6_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.textValidationNonSpaces(sender, e);
         }
     }
 }

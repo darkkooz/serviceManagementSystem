@@ -76,6 +76,12 @@
     <Compile Include="Administrador\ConsultaFactura.Designer.cs">
       <DependentUpon>ConsultaFactura.cs</DependentUpon>
     </Compile>
+    <Compile Include="Administrador\EditarDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\EditarDepartamento.Designer.cs">
+      <DependentUpon>EditarDepartamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administrador\EditarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Administrador\ConsultaFactura.resx">
       <DependentUpon>ConsultaFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\EditarDepartamento.resx">
+      <DependentUpon>EditarDepartamento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administrador\EditarProducto.resx">
       <DependentUpon>EditarProducto.cs</DependentUpon>

@@ -24,14 +24,16 @@ namespace serviceManagementSystem.Administrador
             panel3.Visible = false;
             panel4.Visible = true;
             panel5.Visible = false;
+            panel6.Visible = false;
 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Departamento departamento = new Departamento();
-            departamento.Show();
+            panel6.Visible = true;
+            panel3.Visible = false;
+            panel4.Visible = false;
+            panel5.Visible = false;
 
         }
 
@@ -48,18 +50,17 @@ namespace serviceManagementSystem.Administrador
             panel3.Visible = true;
             panel4.Visible = false;
             panel5.Visible = false;
+            panel6.Visible = false;
 
 
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            //this.Hide();
-            //Cajas caja = new Cajas();
-            //caja.Show();
+            panel5.Visible = true;
             panel3.Visible = false;
             panel4.Visible = false;
-            panel5.Visible = true;
+            panel6.Visible = false;
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -147,6 +148,20 @@ namespace serviceManagementSystem.Administrador
             this.Hide();
             EditarProducto editarProducto = new EditarProducto();
             editarProducto.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Departamento departamento = new Departamento();
+            departamento.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EditarDepartamento editarDepartamento = new EditarDepartamento();
+            editarDepartamento.Show();
         }
     }
 }

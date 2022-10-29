@@ -48,10 +48,14 @@ namespace serviceManagementSystem.Administrador
             this.panel5 = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -89,7 +93,7 @@ namespace serviceManagementSystem.Administrador
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Image = global::serviceManagementSystem.Properties.Resources.icons8_order_history_30;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -113,7 +117,7 @@ namespace serviceManagementSystem.Administrador
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Image = global::serviceManagementSystem.Properties.Resources.icons8_return_32;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -131,7 +135,7 @@ namespace serviceManagementSystem.Administrador
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::serviceManagementSystem.Properties.Resources.icons8_unpacking_30;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -148,7 +152,7 @@ namespace serviceManagementSystem.Administrador
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::serviceManagementSystem.Properties.Resources.icons8_shopping_cart_30;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -165,7 +169,7 @@ namespace serviceManagementSystem.Administrador
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::serviceManagementSystem.Properties.Resources.icons8_stats_32;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -182,7 +186,7 @@ namespace serviceManagementSystem.Administrador
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::serviceManagementSystem.Properties.Resources.icons8_unpacking_30;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,7 +204,7 @@ namespace serviceManagementSystem.Administrador
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Location = new System.Drawing.Point(5, 105);
             this.button7.Name = "button7";
@@ -218,7 +222,7 @@ namespace serviceManagementSystem.Administrador
             this.panel3.Controls.Add(this.button7);
             this.panel3.Location = new System.Drawing.Point(226, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(175, 606);
+            this.panel3.Size = new System.Drawing.Size(175, 352);
             this.panel3.TabIndex = 3;
             this.panel3.Visible = false;
             // 
@@ -228,7 +232,7 @@ namespace serviceManagementSystem.Administrador
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Location = new System.Drawing.Point(5, 237);
             this.button9.Name = "button9";
@@ -244,7 +248,7 @@ namespace serviceManagementSystem.Administrador
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.Location = new System.Drawing.Point(5, 171);
             this.button8.Name = "button8";
@@ -261,7 +265,7 @@ namespace serviceManagementSystem.Administrador
             this.panel4.Controls.Add(this.button14);
             this.panel4.Location = new System.Drawing.Point(407, 12);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(175, 606);
+            this.panel4.Size = new System.Drawing.Size(175, 352);
             this.panel4.TabIndex = 6;
             this.panel4.Visible = false;
             // 
@@ -271,7 +275,7 @@ namespace serviceManagementSystem.Administrador
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.White;
             this.button13.Location = new System.Drawing.Point(3, 168);
             this.button13.Name = "button13";
@@ -287,7 +291,7 @@ namespace serviceManagementSystem.Administrador
             this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.Location = new System.Drawing.Point(5, 102);
             this.button14.Name = "button14";
@@ -304,7 +308,7 @@ namespace serviceManagementSystem.Administrador
             this.panel5.Controls.Add(this.button12);
             this.panel5.Location = new System.Drawing.Point(588, 12);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(175, 606);
+            this.panel5.Size = new System.Drawing.Size(175, 352);
             this.panel5.TabIndex = 8;
             this.panel5.Visible = false;
             // 
@@ -314,7 +318,7 @@ namespace serviceManagementSystem.Administrador
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.White;
             this.button11.Location = new System.Drawing.Point(5, 168);
             this.button11.Name = "button11";
@@ -330,7 +334,7 @@ namespace serviceManagementSystem.Administrador
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Location = new System.Drawing.Point(5, 102);
             this.button12.Name = "button12";
@@ -340,12 +344,56 @@ namespace serviceManagementSystem.Administrador
             this.button12.UseVisualStyleBackColor = false;
             this.button12.Click += new System.EventHandler(this.button12_Click_1);
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel6.Controls.Add(this.button16);
+            this.panel6.Controls.Add(this.button15);
+            this.panel6.Location = new System.Drawing.Point(226, 370);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(356, 248);
+            this.panel6.TabIndex = 10;
+            this.panel6.Visible = false;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.ForeColor = System.Drawing.Color.White;
+            this.button16.Location = new System.Drawing.Point(5, 77);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(202, 38);
+            this.button16.TabIndex = 4;
+            this.button16.Text = "Editar departamento";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Location = new System.Drawing.Point(5, 11);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(202, 38);
+            this.button15.TabIndex = 3;
+            this.button15.Text = "Nuevo departamento";
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
             // AdminIndex
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(775, 630);
             this.ControlBox = false;
+            this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -358,6 +406,7 @@ namespace serviceManagementSystem.Administrador
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -383,5 +432,8 @@ namespace serviceManagementSystem.Administrador
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button15;
     }
 }

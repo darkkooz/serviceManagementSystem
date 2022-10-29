@@ -718,7 +718,7 @@ namespace serviceManagementSystem.Administrador
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = global::serviceManagementSystem.Properties.Resources.icons8_unlock_30;
-            this.button5.Location = new System.Drawing.Point(481, 31);
+            this.button5.Location = new System.Drawing.Point(482, 31);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(49, 49);
             this.button5.TabIndex = 48;

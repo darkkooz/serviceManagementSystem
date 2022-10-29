@@ -130,6 +130,12 @@
     <Compile Include="CajaSelection.Designer.cs">
       <DependentUpon>CajaSelection.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultaDepartamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaDepartamentos.Designer.cs">
+      <DependentUpon>ConsultaDepartamentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Departamento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CajaSelection.resx">
       <DependentUpon>CajaSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaDepartamentos.resx">
+      <DependentUpon>ConsultaDepartamentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Departamento.resx">
       <DependentUpon>Departamento.cs</DependentUpon>

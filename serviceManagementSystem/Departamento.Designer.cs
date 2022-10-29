@@ -126,11 +126,12 @@ namespace serviceManagementSystem
             // 
             this.panel3.Controls.Add(this.textBox3);
             this.panel3.Controls.Add(this.pictureBox3);
+            this.panel3.Enabled = false;
             this.panel3.Location = new System.Drawing.Point(18, 258);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(145, 45);
             this.panel3.TabIndex = 11;
-            this.panel3.Visible = false;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // textBox3
             // 
@@ -168,11 +169,12 @@ namespace serviceManagementSystem
             // 
             this.panel4.Controls.Add(this.dateTimePicker1);
             this.panel4.Controls.Add(this.pictureBox4);
+            this.panel4.Enabled = false;
             this.panel4.Location = new System.Drawing.Point(18, 347);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(145, 45);
             this.panel4.TabIndex = 13;
-            this.panel4.Visible = false;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // dateTimePicker1
             // 
@@ -210,11 +212,12 @@ namespace serviceManagementSystem
             // 
             this.panel5.Controls.Add(this.dateTimePicker2);
             this.panel5.Controls.Add(this.pictureBox5);
+            this.panel5.Enabled = false;
             this.panel5.Location = new System.Drawing.Point(235, 347);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(145, 45);
             this.panel5.TabIndex = 15;
-            this.panel5.Visible = false;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // dateTimePicker2
             // 
@@ -347,11 +350,12 @@ namespace serviceManagementSystem
             // 
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(235, 259);
+            this.panel1.Enabled = false;
+            this.panel1.Location = new System.Drawing.Point(235, 258);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(145, 45);
             this.panel1.TabIndex = 26;
-            this.panel1.Visible = false;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // textBox1
             // 
@@ -401,6 +405,7 @@ namespace serviceManagementSystem
             this.Name = "Departamento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Departamento";
+            this.Load += new System.EventHandler(this.Departamento_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

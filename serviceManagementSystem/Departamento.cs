@@ -31,32 +31,47 @@ namespace serviceManagementSystem
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox2.Checked == true)
-            {
-
-                label1.Visible = true;
-                label4.Visible = true;
-                label5.Visible = true;
-                label6.Visible = true;
-                panel1.Visible = true;
-                panel3.Visible = true;
-                panel4.Visible = true;
-                panel5.Visible = true;
-
+            { 
+                    panel1.Enabled = true;
+                    panel3.Enabled = true;
+                    panel4.Enabled = true;
+                    panel5.Enabled = true;
             }
             else
             {
-                label1.Visible = false;
-                label4.Visible = false;
-                label5.Visible = false;
-                label6.Visible = false;
-                panel1.Visible = false;
-                panel3.Visible = false;
-                panel4.Visible = false;
-                panel5.Visible = false;
+                panel1.Enabled = false;
+                panel3.Enabled = false;
+                panel4.Enabled = false;
+                panel5.Enabled = false;
             }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Departamento_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
         {
 
         }

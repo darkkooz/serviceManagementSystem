@@ -540,7 +540,7 @@ namespace serviceManagementSystem.Usuario
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(12, 675);
+            this.button2.Location = new System.Drawing.Point(49, 641);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 39);
             this.button2.TabIndex = 52;
@@ -682,7 +682,7 @@ namespace serviceManagementSystem.Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1303, 726);
+            this.ClientSize = new System.Drawing.Size(1303, 717);
             this.ControlBox = false;
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);

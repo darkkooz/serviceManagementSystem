@@ -32,92 +32,92 @@ namespace serviceManagementSystem.Administrador
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -148,6 +148,17 @@ namespace serviceManagementSystem.Administrador
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(321, 24);
             this.textBox1.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_barcode_48;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -185,6 +196,17 @@ namespace serviceManagementSystem.Administrador
             this.comboBox2.Size = new System.Drawing.Size(320, 33);
             this.comboBox2.TabIndex = 2;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_length_32;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -221,6 +243,17 @@ namespace serviceManagementSystem.Administrador
             this.comboBox1.Size = new System.Drawing.Size(320, 33);
             this.comboBox1.TabIndex = 1;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_unpacking_30;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -250,6 +283,17 @@ namespace serviceManagementSystem.Administrador
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(321, 24);
             this.textBox2.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_in_inventory_30;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // label8
             // 
@@ -281,6 +325,17 @@ namespace serviceManagementSystem.Administrador
             this.numericUpDown2.Size = new System.Drawing.Size(321, 27);
             this.numericUpDown2.TabIndex = 2;
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_order_history_30;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -310,6 +365,17 @@ namespace serviceManagementSystem.Administrador
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(321, 27);
             this.numericUpDown1.TabIndex = 1;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_paid_bill_32;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
             // 
             // label6
             // 
@@ -342,6 +408,17 @@ namespace serviceManagementSystem.Administrador
             this.textBox4.TabIndex = 3;
             this.textBox4.Text = "$";
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_money_bag_30;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -372,6 +449,17 @@ namespace serviceManagementSystem.Administrador
             this.textBox3.Size = new System.Drawing.Size(321, 24);
             this.textBox3.TabIndex = 2;
             this.textBox3.Text = "$";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_money_bag_30;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
             // 
             // label9
             // 
@@ -408,11 +496,22 @@ namespace serviceManagementSystem.Administrador
             this.comboBox3.Size = new System.Drawing.Size(320, 33);
             this.comboBox3.TabIndex = 1;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_signal_30;
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox9.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(364, 474);
+            this.label10.Location = new System.Drawing.Point(631, 469);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(73, 16);
             this.label10.TabIndex = 58;
@@ -424,9 +523,9 @@ namespace serviceManagementSystem.Administrador
             // 
             this.panel10.Controls.Add(this.dateTimePicker2);
             this.panel10.Controls.Add(this.pictureBox10);
-            this.panel10.Location = new System.Drawing.Point(367, 494);
+            this.panel10.Location = new System.Drawing.Point(634, 488);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(132, 45);
+            this.panel10.Size = new System.Drawing.Size(171, 45);
             this.panel10.TabIndex = 57;
             this.panel10.Visible = false;
             // 
@@ -439,11 +538,22 @@ namespace serviceManagementSystem.Administrador
             this.dateTimePicker2.Size = new System.Drawing.Size(78, 20);
             this.dateTimePicker2.TabIndex = 2;
             // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_calendar_32;
+            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox10.TabIndex = 0;
+            this.pictureBox10.TabStop = false;
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(227, 475);
+            this.label11.Location = new System.Drawing.Point(427, 469);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(83, 16);
             this.label11.TabIndex = 56;
@@ -454,9 +564,9 @@ namespace serviceManagementSystem.Administrador
             // 
             this.panel11.Controls.Add(this.dateTimePicker1);
             this.panel11.Controls.Add(this.pictureBox11);
-            this.panel11.Location = new System.Drawing.Point(230, 494);
+            this.panel11.Location = new System.Drawing.Point(430, 488);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(131, 45);
+            this.panel11.Size = new System.Drawing.Size(171, 45);
             this.panel11.TabIndex = 55;
             this.panel11.Visible = false;
             // 
@@ -469,11 +579,22 @@ namespace serviceManagementSystem.Administrador
             this.dateTimePicker1.Size = new System.Drawing.Size(78, 20);
             this.dateTimePicker1.TabIndex = 1;
             // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_calendar_32;
+            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox11.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox11.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox11.TabIndex = 0;
+            this.pictureBox11.TabStop = false;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(46, 475);
+            this.label12.Location = new System.Drawing.Point(46, 469);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(88, 16);
             this.label12.TabIndex = 54;
@@ -485,23 +606,11 @@ namespace serviceManagementSystem.Administrador
             this.panel12.Controls.Add(this.textBox5);
             this.panel12.Controls.Add(this.pictureBox12);
             this.panel12.Enabled = false;
-            this.panel12.Location = new System.Drawing.Point(49, 494);
+            this.panel12.Location = new System.Drawing.Point(49, 488);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(127, 45);
+            this.panel12.Size = new System.Drawing.Size(375, 45);
             this.panel12.TabIndex = 53;
             this.panel12.Visible = false;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(49, 447);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(175, 20);
-            this.checkBox2.TabIndex = 52;
-            this.checkBox2.Text = "Aplicar nuevo descuento";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // textBox5
             // 
@@ -510,9 +619,32 @@ namespace serviceManagementSystem.Administrador
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(51, 11);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(73, 24);
+            this.textBox5.Size = new System.Drawing.Size(321, 24);
             this.textBox5.TabIndex = 3;
             this.textBox5.Text = "$";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_increase_discount_30;
+            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox12.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox12.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox12.TabIndex = 0;
+            this.pictureBox12.TabStop = false;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(49, 434);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(175, 20);
+            this.checkBox2.TabIndex = 52;
+            this.checkBox2.Text = "Aplicar nuevo descuento";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // label13
             // 
@@ -531,7 +663,7 @@ namespace serviceManagementSystem.Administrador
             this.panel13.Enabled = false;
             this.panel13.Location = new System.Drawing.Point(49, 375);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(372, 45);
+            this.panel13.Size = new System.Drawing.Size(375, 45);
             this.panel13.TabIndex = 60;
             // 
             // textBox6
@@ -541,20 +673,9 @@ namespace serviceManagementSystem.Administrador
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.Location = new System.Drawing.Point(51, 11);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(318, 24);
+            this.textBox6.Size = new System.Drawing.Size(321, 24);
             this.textBox6.TabIndex = 4;
             this.textBox6.Text = "$";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(230, 447);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(220, 20);
-            this.checkBox1.TabIndex = 62;
-            this.checkBox1.Text = "Aplica restricción en descuentos";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // pictureBox13
             // 
@@ -567,38 +688,16 @@ namespace serviceManagementSystem.Administrador
             this.pictureBox13.TabIndex = 0;
             this.pictureBox13.TabStop = false;
             // 
-            // pictureBox10
+            // checkBox1
             // 
-            this.pictureBox10.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_calendar_32;
-            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox10.TabIndex = 0;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_calendar_32;
-            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox11.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox11.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox11.TabIndex = 0;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_increase_discount_30;
-            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox12.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox12.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox12.TabIndex = 0;
-            this.pictureBox12.TabStop = false;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(430, 434);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(241, 20);
+            this.checkBox1.TabIndex = 62;
+            this.checkBox1.Text = "No aplica descuento departamental";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -612,17 +711,6 @@ namespace serviceManagementSystem.Administrador
             this.button6.TabIndex = 51;
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_signal_30;
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
             // 
             // button5
             // 
@@ -646,7 +734,7 @@ namespace serviceManagementSystem.Administrador
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::serviceManagementSystem.Properties.Resources.icons8_remove_30;
-            this.button4.Location = new System.Drawing.Point(760, 443);
+            this.button4.Location = new System.Drawing.Point(828, 437);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(45, 45);
             this.button4.TabIndex = 47;
@@ -661,7 +749,7 @@ namespace serviceManagementSystem.Administrador
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::serviceManagementSystem.Properties.Resources.icons8_circled_right_30___copia;
-            this.button2.Location = new System.Drawing.Point(760, 494);
+            this.button2.Location = new System.Drawing.Point(828, 488);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(45, 45);
             this.button2.TabIndex = 46;
@@ -678,88 +766,11 @@ namespace serviceManagementSystem.Administrador
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::serviceManagementSystem.Properties.Resources.icons8_pencil_30;
-            this.button3.Location = new System.Drawing.Point(760, 392);
+            this.button3.Location = new System.Drawing.Point(828, 386);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(45, 45);
             this.button3.TabIndex = 45;
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_order_history_30;
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_paid_bill_32;
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_money_bag_30;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_money_bag_30;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_length_32;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_unpacking_30;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_in_inventory_30;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // button1
             // 
@@ -772,17 +783,6 @@ namespace serviceManagementSystem.Administrador
             this.button1.Size = new System.Drawing.Size(49, 49);
             this.button1.TabIndex = 30;
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_barcode_48;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // button7
             // 
@@ -802,7 +802,7 @@ namespace serviceManagementSystem.Administrador
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(848, 568);
+            this.ClientSize = new System.Drawing.Size(885, 568);
             this.ControlBox = false;
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label13);
@@ -845,38 +845,38 @@ namespace serviceManagementSystem.Administrador
             this.Text = "EditarProducto";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

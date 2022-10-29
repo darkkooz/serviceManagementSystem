@@ -142,6 +142,7 @@ namespace serviceManagementSystem
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(91, 26);
             this.textBox3.TabIndex = 2;
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // pictureBox3
             // 
@@ -366,6 +367,7 @@ namespace serviceManagementSystem
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(88, 26);
             this.textBox1.TabIndex = 1;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // pictureBox1
             // 

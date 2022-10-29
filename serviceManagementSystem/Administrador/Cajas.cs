@@ -17,6 +17,9 @@ namespace serviceManagementSystem.Administrador
             InitializeComponent();
         }
 
+
+        Validaciones validaciones = new Validaciones();
+
         private void button2_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -45,8 +48,8 @@ namespace serviceManagementSystem.Administrador
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            label6.Visible = false;
-            panel3.Visible = false;
+            //label6.Visible = false;
+            //panel3.Visible = false;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -62,6 +65,21 @@ namespace serviceManagementSystem.Administrador
                 label6.Visible = false;
                 panel3.Visible = false;
             }
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.decimalValidation(sender, e);
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.decimalValidation(sender, e);
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.decimalValidation(sender, e);
         }
     }
 }

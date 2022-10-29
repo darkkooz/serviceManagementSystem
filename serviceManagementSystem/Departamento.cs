@@ -18,6 +18,9 @@ namespace serviceManagementSystem
             InitializeComponent();
         }
 
+
+        Validaciones validaciones = new Validaciones();
+
         private void button2_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -74,6 +77,16 @@ namespace serviceManagementSystem
         private void panel5_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.decimalValidation(sender, e);
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.decimalValidation(sender, e);
         }
     }
 }

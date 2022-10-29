@@ -20,6 +20,9 @@ namespace serviceManagementSystem.Administrador
 
 
 
+        Validaciones validaciones = new Validaciones();
+
+
         private void button5_Click(object sender, EventArgs e)
         {
             button7.BringToFront();
@@ -98,6 +101,31 @@ namespace serviceManagementSystem.Administrador
         private void label10_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.decimalValidation(sender, e);
+        }
+
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.decimalValidation(sender, e);
+        }
+
+        private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.decimalValidation(sender, e);
+        }
+
+        private void numericUpDown1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.intValidate(sender, e);
+        }
+
+        private void numericUpDown2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.intValidate(sender, e);
         }
     }
 }

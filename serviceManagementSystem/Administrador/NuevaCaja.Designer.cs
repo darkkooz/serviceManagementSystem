@@ -168,6 +168,7 @@ namespace serviceManagementSystem.Administrador
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(312, 26);
             this.textBox2.TabIndex = 1;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // pictureBox3
             // 
@@ -208,6 +209,7 @@ namespace serviceManagementSystem.Administrador
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(312, 26);
             this.textBox3.TabIndex = 2;
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // pictureBox4
             // 
@@ -248,6 +250,7 @@ namespace serviceManagementSystem.Administrador
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(309, 26);
             this.textBox4.TabIndex = 2;
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
             // 
             // pictureBox5
             // 

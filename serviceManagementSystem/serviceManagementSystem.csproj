@@ -180,6 +180,7 @@
     <Compile Include="Usuario\UserIndex.Designer.cs">
       <DependentUpon>UserIndex.cs</DependentUpon>
     </Compile>
+    <Compile Include="Validaciones.cs" />
     <EmbeddedResource Include="Administrador\AdminIndex.resx">
       <DependentUpon>AdminIndex.cs</DependentUpon>
     </EmbeddedResource>

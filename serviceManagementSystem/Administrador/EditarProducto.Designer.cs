@@ -324,6 +324,7 @@ namespace serviceManagementSystem.Administrador
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(321, 29);
             this.numericUpDown2.TabIndex = 2;
+            this.numericUpDown2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numericUpDown2_KeyPress);
             // 
             // pictureBox8
             // 
@@ -365,6 +366,7 @@ namespace serviceManagementSystem.Administrador
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(321, 29);
             this.numericUpDown1.TabIndex = 1;
+            this.numericUpDown1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numericUpDown1_KeyPress);
             // 
             // pictureBox7
             // 
@@ -407,6 +409,7 @@ namespace serviceManagementSystem.Administrador
             this.textBox4.Size = new System.Drawing.Size(321, 26);
             this.textBox4.TabIndex = 3;
             this.textBox4.Text = "$";
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
             // 
             // pictureBox6
             // 
@@ -449,6 +452,7 @@ namespace serviceManagementSystem.Administrador
             this.textBox3.Size = new System.Drawing.Size(321, 26);
             this.textBox3.TabIndex = 2;
             this.textBox3.Text = "$";
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // pictureBox5
             // 
@@ -622,6 +626,7 @@ namespace serviceManagementSystem.Administrador
             this.textBox5.Size = new System.Drawing.Size(321, 26);
             this.textBox5.TabIndex = 3;
             this.textBox5.Text = "$";
+            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
             // 
             // pictureBox12
             // 

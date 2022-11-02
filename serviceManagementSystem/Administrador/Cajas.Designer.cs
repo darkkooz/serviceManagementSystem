@@ -198,7 +198,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(317, 300);
+            this.label4.Location = new System.Drawing.Point(195, 302);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(15, 16);
             this.label4.TabIndex = 25;
@@ -251,7 +251,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(317, 418);
+            this.label7.Location = new System.Drawing.Point(195, 424);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(15, 16);
             this.label7.TabIndex = 33;
@@ -261,7 +261,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(15, 417);
+            this.label8.Location = new System.Drawing.Point(15, 423);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(156, 17);
             this.label8.TabIndex = 32;
@@ -353,7 +353,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(138, 300);
+            this.label3.Location = new System.Drawing.Point(15, 302);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(177, 17);
             this.label3.TabIndex = 24;
@@ -363,7 +363,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(15, 300);
+            this.checkBox1.Location = new System.Drawing.Point(263, 302);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(118, 21);
             this.checkBox1.TabIndex = 38;

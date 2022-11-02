@@ -395,11 +395,14 @@ namespace serviceManagementSystem
             // 
             this.textBox7.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(51, 6);
+            this.textBox7.Location = new System.Drawing.Point(51, 8);
+            this.textBox7.MaxLength = 18;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(321, 26);
             this.textBox7.TabIndex = 6;
+            this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox7_KeyPress);
             // 
             // pictureBox4
             // 
@@ -651,12 +654,13 @@ namespace serviceManagementSystem
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(450, 521);
+            this.ClientSize = new System.Drawing.Size(449, 521);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Signup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Signup_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

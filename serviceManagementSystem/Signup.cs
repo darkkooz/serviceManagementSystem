@@ -101,5 +101,10 @@ namespace serviceManagementSystem
         {
             validaciones.textValidationNonSpaces(sender, e);
         }
+
+        private void textBox7_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.nonSpaces(sender, e);
+        }
     }
 }

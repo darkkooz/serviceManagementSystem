@@ -40,7 +40,6 @@ namespace serviceManagementSystem
                 e.Handled = true;
             }
         }
-
         public void textValidationWithSpaces(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back) && e.KeyChar != (char)Keys.Space)
@@ -50,7 +49,6 @@ namespace serviceManagementSystem
 
             }
         }
-
         public void textValidationNonSpaces(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back)) 
@@ -59,6 +57,18 @@ namespace serviceManagementSystem
                 e.Handled = true;
 
             }
+        }
+        public void nonSpaces(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = e.KeyChar == Convert.ToChar(Keys.Space);
+        }
+
+        public void curpValidation(object sender, KeyPressEventArgs e)
+        {
+
+            e.Handled = e.KeyChar == Convert.ToChar(Keys.Space);
+
+
         }
 
 

@@ -34,6 +34,7 @@ namespace serviceManagementSystem
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = global::serviceManagementSystem.Properties.Resources.icons8_circled_right_30___copia;

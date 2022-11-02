@@ -39,15 +39,15 @@ namespace serviceManagementSystem.Administrador
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtMontoInicial = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtMontoMinimo = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtMontoMaximo = new System.Windows.Forms.TextBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -86,7 +86,7 @@ namespace serviceManagementSystem.Administrador
             "Fuera de servicio"});
             this.comboBox1.Location = new System.Drawing.Point(51, 6);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(315, 32);
+            this.comboBox1.Size = new System.Drawing.Size(312, 32);
             this.comboBox1.TabIndex = 1;
             // 
             // pictureBox2
@@ -136,7 +136,7 @@ namespace serviceManagementSystem.Administrador
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(51, 11);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(315, 26);
+            this.textBox1.Size = new System.Drawing.Size(312, 26);
             this.textBox1.TabIndex = 1;
             // 
             // pictureBox1
@@ -152,23 +152,23 @@ namespace serviceManagementSystem.Administrador
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.txtMontoInicial);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(12, 211);
+            this.panel3.Location = new System.Drawing.Point(15, 385);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(366, 45);
             this.panel3.TabIndex = 17;
             // 
-            // textBox2
+            // txtMontoInicial
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(51, 10);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(312, 26);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.txtMontoInicial.BackColor = System.Drawing.SystemColors.Control;
+            this.txtMontoInicial.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMontoInicial.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMontoInicial.Location = new System.Drawing.Point(51, 10);
+            this.txtMontoInicial.Name = "txtMontoInicial";
+            this.txtMontoInicial.Size = new System.Drawing.Size(309, 26);
+            this.txtMontoInicial.TabIndex = 1;
+            this.txtMontoInicial.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // pictureBox3
             // 
@@ -185,7 +185,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 192);
+            this.label3.Location = new System.Drawing.Point(12, 365);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 17);
             this.label3.TabIndex = 16;
@@ -193,23 +193,23 @@ namespace serviceManagementSystem.Administrador
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.textBox3);
+            this.panel4.Controls.Add(this.txtMontoMinimo);
             this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Location = new System.Drawing.Point(12, 298);
+            this.panel4.Location = new System.Drawing.Point(9, 211);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(366, 45);
             this.panel4.TabIndex = 19;
             // 
-            // textBox3
+            // txtMontoMinimo
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(51, 11);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(312, 26);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
+            this.txtMontoMinimo.BackColor = System.Drawing.SystemColors.Control;
+            this.txtMontoMinimo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMontoMinimo.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMontoMinimo.Location = new System.Drawing.Point(51, 11);
+            this.txtMontoMinimo.Name = "txtMontoMinimo";
+            this.txtMontoMinimo.Size = new System.Drawing.Size(312, 26);
+            this.txtMontoMinimo.TabIndex = 2;
+            this.txtMontoMinimo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // pictureBox4
             // 
@@ -226,7 +226,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 279);
+            this.label4.Location = new System.Drawing.Point(9, 192);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 17);
             this.label4.TabIndex = 18;
@@ -234,23 +234,23 @@ namespace serviceManagementSystem.Administrador
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.textBox4);
+            this.panel5.Controls.Add(this.txtMontoMaximo);
             this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Location = new System.Drawing.Point(15, 385);
+            this.panel5.Location = new System.Drawing.Point(12, 298);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(366, 45);
             this.panel5.TabIndex = 21;
             // 
-            // textBox4
+            // txtMontoMaximo
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(51, 10);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(309, 26);
-            this.textBox4.TabIndex = 2;
-            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
+            this.txtMontoMaximo.BackColor = System.Drawing.SystemColors.Control;
+            this.txtMontoMaximo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMontoMaximo.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMontoMaximo.Location = new System.Drawing.Point(51, 10);
+            this.txtMontoMaximo.Name = "txtMontoMaximo";
+            this.txtMontoMaximo.Size = new System.Drawing.Size(309, 26);
+            this.txtMontoMaximo.TabIndex = 2;
+            this.txtMontoMaximo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
             // 
             // pictureBox5
             // 
@@ -267,7 +267,7 @@ namespace serviceManagementSystem.Administrador
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 366);
+            this.label5.Location = new System.Drawing.Point(9, 278);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 17);
             this.label5.TabIndex = 20;
@@ -303,6 +303,7 @@ namespace serviceManagementSystem.Administrador
             this.button1.TabIndex = 22;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // NuevaCaja
             // 
@@ -367,8 +368,8 @@ namespace serviceManagementSystem.Administrador
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtMontoInicial;
+        private System.Windows.Forms.TextBox txtMontoMinimo;
+        private System.Windows.Forms.TextBox txtMontoMaximo;
     }
 }

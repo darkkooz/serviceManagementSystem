@@ -91,11 +91,13 @@ namespace serviceManagementSystem.Administrador
             "Fecha expedición de la factura"});
             this.comboBox1.Location = new System.Drawing.Point(52, 7);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(320, 32);
+            this.comboBox1.Size = new System.Drawing.Size(311, 32);
             this.comboBox1.TabIndex = 1;
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_in_inventory_30;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
@@ -126,11 +128,13 @@ namespace serviceManagementSystem.Administrador
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(51, 12);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(321, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(312, 20);
             this.dateTimePicker1.TabIndex = 20;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_calendar_32;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -164,11 +168,13 @@ namespace serviceManagementSystem.Administrador
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(51, 9);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(321, 26);
+            this.textBox2.Size = new System.Drawing.Size(312, 26);
             this.textBox2.TabIndex = 1;
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_barcode_48;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
@@ -265,7 +271,7 @@ namespace serviceManagementSystem.Administrador
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(256, 39);
             this.button3.TabIndex = 49;
-            this.button3.Text = "Generar nota de crédito";
+            this.button3.Text = "Nueva nota de crédito";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button4

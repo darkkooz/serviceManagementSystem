@@ -384,5 +384,8 @@
   <ItemGroup>
     <None Include="resources\Cajero\icons8-funnel-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Cajero\icons8-broom-30.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

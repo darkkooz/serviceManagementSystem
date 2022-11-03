@@ -17,6 +17,9 @@ namespace serviceManagementSystem.Usuario
             InitializeComponent();
         }
 
+
+        Validaciones validaciones = new Validaciones();
+
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -27,6 +30,11 @@ namespace serviceManagementSystem.Usuario
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void textBox11_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validaciones.intValidate(sender, e);
         }
     }
 }

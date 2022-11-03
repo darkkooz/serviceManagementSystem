@@ -74,10 +74,7 @@ namespace serviceManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-
-
-
+ 
             if (txtUsername.Text == user && txtPassword.Text == userPassword) 
             {
                 this.Hide();
@@ -96,11 +93,6 @@ namespace serviceManagementSystem
                 MessageBox.Show("Las credenciales no coinciden");
             }
  
-
-
-
-
-
         }
     }
 }

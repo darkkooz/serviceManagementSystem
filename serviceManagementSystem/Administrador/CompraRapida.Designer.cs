@@ -37,6 +37,7 @@ namespace serviceManagementSystem.Administrador
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,15 +47,18 @@ namespace serviceManagementSystem.Administrador
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,7 +68,9 @@ namespace serviceManagementSystem.Administrador
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
@@ -74,23 +80,17 @@ namespace serviceManagementSystem.Administrador
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -182,6 +182,17 @@ namespace serviceManagementSystem.Administrador
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(321, 26);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_barcode_48;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -266,6 +277,19 @@ namespace serviceManagementSystem.Administrador
             this.label16.TabIndex = 42;
             this.label16.Text = "Articulos:";
             // 
+            // button4
+            // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Image = global::serviceManagementSystem.Properties.Resources.icons8_buy_50;
+            this.button4.Location = new System.Drawing.Point(484, 570);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(55, 55);
+            this.button4.TabIndex = 41;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -313,6 +337,19 @@ namespace serviceManagementSystem.Administrador
             this.label14.Size = new System.Drawing.Size(99, 21);
             this.label14.TabIndex = 17;
             this.label14.Text = "Descuento:";
+            // 
+            // button5
+            // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Image = global::serviceManagementSystem.Properties.Resources.icons8_circled_right_30___copia;
+            this.button5.Location = new System.Drawing.Point(429, 570);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(49, 55);
+            this.button5.TabIndex = 45;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label9
             // 
@@ -367,6 +404,18 @@ namespace serviceManagementSystem.Administrador
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(321, 26);
             this.textBox2.TabIndex = 1;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_in_inventory_30;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // label8
             // 
@@ -426,8 +475,9 @@ namespace serviceManagementSystem.Administrador
             this.numericUpDown1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown1.Location = new System.Drawing.Point(8, 584);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(107, 29);
+            this.numericUpDown1.Size = new System.Drawing.Size(87, 29);
             this.numericUpDown1.TabIndex = 41;
+            this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel4
             // 
@@ -438,8 +488,19 @@ namespace serviceManagementSystem.Administrador
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(446, 89);
             this.panel4.TabIndex = 46;
-            this.panel4.Visible = false;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::serviceManagementSystem.Properties.Resources.icons8_search_30;
+            this.button1.Location = new System.Drawing.Point(394, 34);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(49, 49);
+            this.button1.TabIndex = 33;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
@@ -452,6 +513,18 @@ namespace serviceManagementSystem.Administrador
             this.panel5.TabIndex = 47;
             this.panel5.Visible = false;
             // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::serviceManagementSystem.Properties.Resources.icons8_search_30;
+            this.button2.Location = new System.Drawing.Point(394, 34);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(49, 49);
+            this.button2.TabIndex = 37;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
@@ -461,7 +534,6 @@ namespace serviceManagementSystem.Administrador
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(298, 25);
             this.radioButton1.TabIndex = 48;
-            this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Busqueda por código de producto";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
@@ -475,7 +547,6 @@ namespace serviceManagementSystem.Administrador
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(307, 25);
             this.radioButton2.TabIndex = 49;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Busqueda por nombre del producto";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
@@ -525,16 +596,18 @@ namespace serviceManagementSystem.Administrador
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(107, 26);
             this.textBox3.TabIndex = 53;
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox4
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(214, 588);
+            this.textBox4.Location = new System.Drawing.Point(202, 588);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(107, 26);
+            this.textBox4.Size = new System.Drawing.Size(153, 26);
             this.textBox4.TabIndex = 55;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label20
             // 
@@ -542,7 +615,7 @@ namespace serviceManagementSystem.Administrador
             this.label20.BackColor = System.Drawing.SystemColors.Control;
             this.label20.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label20.Location = new System.Drawing.Point(214, 560);
+            this.label20.Location = new System.Drawing.Point(202, 560);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(153, 21);
             this.label20.TabIndex = 54;
@@ -562,51 +635,6 @@ namespace serviceManagementSystem.Administrador
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_in_inventory_30;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::serviceManagementSystem.Properties.Resources.icons8_search_30;
-            this.button2.Location = new System.Drawing.Point(394, 34);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(49, 49);
-            this.button2.TabIndex = 37;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_barcode_48;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::serviceManagementSystem.Properties.Resources.icons8_search_30;
-            this.button1.Location = new System.Drawing.Point(394, 34);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(49, 49);
-            this.button1.TabIndex = 33;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // button3
             // 
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -620,32 +648,6 @@ namespace serviceManagementSystem.Administrador
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
-            // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Image = global::serviceManagementSystem.Properties.Resources.icons8_buy_50;
-            this.button4.Location = new System.Drawing.Point(484, 570);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(55, 55);
-            this.button4.TabIndex = 41;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Image = global::serviceManagementSystem.Properties.Resources.icons8_circled_right_30___copia;
-            this.button5.Location = new System.Drawing.Point(429, 570);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(49, 55);
-            this.button5.TabIndex = 45;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // CompraRapida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -656,13 +658,13 @@ namespace serviceManagementSystem.Administrador
             this.Controls.Add(this.button6);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label20);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.dataGridView1);
@@ -680,19 +682,19 @@ namespace serviceManagementSystem.Administrador
             this.Text = "CompraRapida";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

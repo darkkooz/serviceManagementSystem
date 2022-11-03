@@ -20,8 +20,9 @@ namespace serviceManagementSystem.Usuario
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ConsultaRapida consultaRapida = new ConsultaRapida();
-            consultaRapida.ShowDialog();
+            //ConsultaRapida consultaRapida = new ConsultaRapida();
+            //consultaRapida.ShowDialog();
+            panel3.Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -53,6 +54,17 @@ namespace serviceManagementSystem.Usuario
             this.Hide();
             CompraRapida compraRapida = new CompraRapida();
             compraRapida.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            panel3.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ConsultaRapida consultaRapida = new ConsultaRapida();
+            consultaRapida.ShowDialog();
         }
     }
 }

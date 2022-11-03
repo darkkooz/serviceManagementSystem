@@ -5,28 +5,48 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace serviceManagementSystem
 {
     public class EnlaceDataBase
     {
-        static private string _aux { set; get; }
-        static private SqlConnection _conexion;
-        static private SqlDataAdapter _adaptador = new SqlDataAdapter();
-        static private SqlCommand _comandosql = new SqlCommand();
-        static private DataTable _tabla = new DataTable();
-        static private DataSet _DS = new DataSet();
+
+        
 
 
-        private static void conectar()
+        //Cadena de Conexion
+        string cadena = "data source = DESKTOP-S34RQIR; initial catalog = Pruebas; user id = sa; password = 123456";
+        
+        public SqlConnection databaseConection = new SqlConnection();
+
+        //Constructor
+        public EnlaceDataBase()
         {
-            //string cnn = ConfigurationManager.AppSettings["desarrollo1"];
-            //string cnn = ConfigurationManager.ConnectionStrings["Grupo01"].ToString();
-            //_conexion = new SqlConnection(cnn);
-            //_conexion.Open();
+            databaseConection.ConnectionString = cadena;
+ 
         }
 
+        //Metodo para abrir la conexion
+        public void abrir()
+        {
+            try
+            {
+                databaseConection.Open();
+                MessageBox.Show("conexion correcta");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("error al abrir BD ", ex.Message);
+                MessageBox.Show("Error");
+            }
+        }
 
+        //Metodo para cerrar la conexion
+        public void cerrar()
+        {
+            databaseConection.Close();
+        }
 
 
     }

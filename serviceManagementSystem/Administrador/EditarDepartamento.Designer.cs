@@ -138,6 +138,7 @@ namespace serviceManagementSystem.Administrador
             // button6
             // 
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.Enabled = false;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Image = global::serviceManagementSystem.Properties.Resources.icons8_in_inventory_30;

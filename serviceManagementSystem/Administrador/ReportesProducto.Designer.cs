@@ -51,11 +51,17 @@ namespace serviceManagementSystem.Administrador
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
@@ -95,6 +101,8 @@ namespace serviceManagementSystem.Administrador
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_funnel_50;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
@@ -128,10 +136,10 @@ namespace serviceManagementSystem.Administrador
             this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "Abarrotes",
-            "Belleza",
-            "Tecnología",
-            "Farmacia"});
+            "Departamento",
+            "Cantidad de existencia mínima",
+            "Solo productos agotados (Si o no)",
+            "Con Merma"});
             this.comboBox2.Location = new System.Drawing.Point(51, 6);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(321, 32);
@@ -139,6 +147,8 @@ namespace serviceManagementSystem.Administrador
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_in_inventory_30;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -273,12 +283,60 @@ namespace serviceManagementSystem.Administrador
             this.label5.TabIndex = 35;
             this.label5.Text = "Reporte de inventario";
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.comboBox3);
+            this.panel3.Controls.Add(this.pictureBox3);
+            this.panel3.Location = new System.Drawing.Point(12, 247);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(375, 45);
+            this.panel3.TabIndex = 37;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.BackColor = System.Drawing.SystemColors.Control;
+            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Departamento",
+            "Cantidad de existencia mínima",
+            "Solo productos agotados (Si o no)",
+            "Con Merma"});
+            this.comboBox3.Location = new System.Drawing.Point(51, 6);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(321, 32);
+            this.comboBox3.TabIndex = 1;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::serviceManagementSystem.Properties.Resources.icons8_in_inventory_30;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(9, 227);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(109, 17);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Departamento:";
+            // 
             // ReportesProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1207, 409);
             this.ControlBox = false;
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -298,6 +356,8 @@ namespace serviceManagementSystem.Administrador
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -327,5 +387,9 @@ namespace serviceManagementSystem.Administrador
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label1;
     }
 }

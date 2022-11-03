@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace serviceManagementSystem
@@ -16,6 +17,14 @@ namespace serviceManagementSystem
         {
             InitializeComponent();
         }
+
+
+
+
+
+
+
+
 
 
         Validaciones validaciones = new Validaciones();
@@ -75,9 +84,10 @@ namespace serviceManagementSystem
 
         private void btnSignup_Click(object sender, EventArgs e)
         {
+
+            ConfirmacionAdmin confirmacionAdmin = new ConfirmacionAdmin();
+            confirmacionAdmin.Show();
             this.Hide();
-            Login login = new Login();
-            login.Show();
         }
 
         private void button2_Click_1(object sender, EventArgs e)

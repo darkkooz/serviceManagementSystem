@@ -20,12 +20,10 @@ namespace serviceManagementSystem.Administrador
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             panel3.Visible = false;
             panel4.Visible = true;
             panel5.Visible = false;
             panel6.Visible = false;
-
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -162,6 +160,50 @@ namespace serviceManagementSystem.Administrador
             this.Hide();
             EditarDepartamento editarDepartamento = new EditarDepartamento();
             editarDepartamento.Show();
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            panel3.Visible = false;
+            panel4.Visible = false;
+            panel5.Visible = false;
+            panel6.Visible = false;
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            panel3.Visible = false;
+            panel4.Visible = false;
+            panel5.Visible = false;
+            panel6.Visible = false;
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            panel3.Visible = false;
+            panel4.Visible = false;
+            panel5.Visible = false;
+            panel6.Visible = false;
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            panel3.Visible = false;
+            panel4.Visible = false;
+            panel5.Visible = false;
+            panel6.Visible = false;
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ReporteCajero reporteCajero = new ReporteCajero();
+            reporteCajero.Show();
         }
     }
 }

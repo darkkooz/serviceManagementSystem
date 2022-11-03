@@ -223,6 +223,16 @@ namespace serviceManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_high_priority_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-high-priority-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_in_inventory_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-in-inventory-30", resourceCulture);

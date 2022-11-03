@@ -25,5 +25,10 @@ namespace serviceManagementSystem
             login.Show();
 
         }
+
+        private void BdSelection_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -65,17 +65,22 @@ namespace serviceManagementSystem.Administrador
             montoMinimo = double.Parse(txtMontoMinimo.Text);
             montoMaximo = double.Parse(txtMontoMaximo.Text);
             montoInicial = double.Parse(txtMontoInicial.Text);
+            if (montoMinimo==montoMaximo) {
+                MessageBox.Show("El monto minimo debe ser diferente al monto maximo");
+            }
             if (montoInicial > montoMaximo) {
                 MessageBox.Show("El monto inicial debe ser menor al monto maximo especificado");
             } else if (montoInicial < montoMinimo)
             {
                 MessageBox.Show("El monto inicial debe ser mayor al monto minimo especificado");
-            } 
+            }
 
 
 
-
-
+            if (String.IsNullOrEmpty(txtMontoInicial.Text))
+            {
+                MessageBox.Show("Debe de ingresar un monto minimo");
+            }
 
         }
     }
